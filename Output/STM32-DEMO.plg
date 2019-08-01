@@ -1,0 +1,1142 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+G:\02.Project\iRobot\code\irobot\USER\irobot.uvproj
+Project File Date:  03/19/2015
+
+<h2>Output:</h2>
+Build target 'SysTick-DEMO'
+compiling main.c...
+compiling stm32f10x_it.c...
+stm32f10x_it.c(294): warning:  #177-D: variable "cc2" was declared but never referenced
+compiling SysTick.c...
+compiling usart.c...
+usart.c(219): warning:  #223-D: function "vsprintf" declared implicitly
+compiling motor.c...
+compiling PID.c...
+compiling OpFlash.c...
+OpFlash.c(32): warning:  #223-D: function "uuRwrite" declared implicitly
+OpFlash.c(112): warning:  #223-D: function "asm" declared implicitly
+OpFlash.c(116): warning:  #223-D: function "pp_tvv" declared implicitly
+compiling upgr.c...
+upgr.c(4): error:  #20: identifier "flash_word" is undefined
+upgr.c(32): warning:  #223-D: function "memset" declared implicitly
+upgr.c(37): warning:  #223-D: function "mstimeout" declared implicitly
+upgr.c(43): error:  #20: identifier "chr" is undefined
+upgr.c(57): warning:  #223-D: function "SavetoFlash" declared implicitly
+upgr.c(74): warning:  #223-D: function "SavetoFlash" declared implicitly
+upgr.c(82): warning:  #223-D: function "mstimeout" declared implicitly
+upgr.c(83): warning:  #223-D: function "mstimeout" declared implicitly
+upgr.c(91): error:  #20: identifier "chr" is undefined
+upgr.c(96): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+upgr.c(101): warning:  #223-D: function "memset" declared implicitly
+upgr.c(117): warning:  #223-D: function "mstimeout" declared implicitly
+upgr.c(118): warning:  #223-D: function "mstimeout" declared implicitly
+upgr.c(129): warning:  #223-D: function "memset" declared implicitly
+upgr.c(133): error:  #65: expected a ";"
+upgr.c(21): warning:  #177-D: variable "i" was declared but never referenced
+Target not created
+Build target 'SysTick-DEMO'
+compiling upgr.c...
+upgr.c(32): warning:  #223-D: function "memset" declared implicitly
+upgr.c(37): warning:  #223-D: function "mstimeout" declared implicitly
+upgr.c(43): error:  #20: identifier "chr" is undefined
+upgr.c(57): warning:  #223-D: function "SavetoFlash" declared implicitly
+upgr.c(74): warning:  #223-D: function "SavetoFlash" declared implicitly
+upgr.c(82): warning:  #223-D: function "mstimeout" declared implicitly
+upgr.c(83): warning:  #223-D: function "mstimeout" declared implicitly
+upgr.c(91): error:  #20: identifier "chr" is undefined
+upgr.c(96): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+upgr.c(101): warning:  #223-D: function "memset" declared implicitly
+upgr.c(117): warning:  #223-D: function "mstimeout" declared implicitly
+upgr.c(118): warning:  #223-D: function "mstimeout" declared implicitly
+upgr.c(129): warning:  #223-D: function "memset" declared implicitly
+upgr.c(133): error:  #65: expected a ";"
+upgr.c(21): warning:  #177-D: variable "i" was declared but never referenced
+Target not created
+Build target 'SysTick-DEMO'
+compiling upgr.c...
+upgr.c(33): warning:  #223-D: function "memset" declared implicitly
+upgr.c(44): error:  #20: identifier "chr" is undefined
+upgr.c(58): warning:  #223-D: function "SavetoFlash" declared implicitly
+upgr.c(75): warning:  #223-D: function "SavetoFlash" declared implicitly
+upgr.c(92): error:  #20: identifier "chr" is undefined
+upgr.c(97): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+upgr.c(102): warning:  #223-D: function "memset" declared implicitly
+upgr.c(130): warning:  #223-D: function "memset" declared implicitly
+upgr.c(134): error:  #65: expected a ";"
+upgr.c(22): warning:  #177-D: variable "i" was declared but never referenced
+Target not created
+Build target 'SysTick-DEMO'
+compiling upgr.c...
+upgr.c(34): warning:  #223-D: function "memset" declared implicitly
+upgr.c(59): warning:  #223-D: function "SavetoFlash" declared implicitly
+upgr.c(76): warning:  #223-D: function "SavetoFlash" declared implicitly
+upgr.c(98): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+upgr.c(103): warning:  #223-D: function "memset" declared implicitly
+upgr.c(131): warning:  #223-D: function "memset" declared implicitly
+upgr.c(135): error:  #65: expected a ";"
+upgr.c(23): warning:  #177-D: variable "i" was declared but never referenced
+Target not created
+Build target 'SysTick-DEMO'
+compiling upgr.c...
+upgr.c(34): warning:  #223-D: function "memset" declared implicitly
+upgr.c(59): warning:  #223-D: function "SavetoFlash" declared implicitly
+upgr.c(76): warning:  #223-D: function "SavetoFlash" declared implicitly
+upgr.c(98): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+upgr.c(103): warning:  #223-D: function "memset" declared implicitly
+upgr.c(131): warning:  #223-D: function "memset" declared implicitly
+upgr.c(23): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+..\Output\STM32-DEMO.axf: Error: L6218E: Undefined symbol FLASH_ClearFlag (referred from opflash.o).
+..\Output\STM32-DEMO.axf: Error: L6218E: Undefined symbol FLASH_ErasePage (referred from opflash.o).
+..\Output\STM32-DEMO.axf: Error: L6218E: Undefined symbol FLASH_Lock (referred from opflash.o).
+..\Output\STM32-DEMO.axf: Error: L6218E: Undefined symbol FLASH_ProgramWord (referred from opflash.o).
+..\Output\STM32-DEMO.axf: Error: L6218E: Undefined symbol FLASH_ReadOutProtection (referred from opflash.o).
+..\Output\STM32-DEMO.axf: Error: L6218E: Undefined symbol FLASH_Unlock (referred from opflash.o).
+..\Output\STM32-DEMO.axf: Error: L6218E: Undefined symbol asm (referred from opflash.o).
+..\Output\STM32-DEMO.axf: Error: L6218E: Undefined symbol pp_tvv (referred from opflash.o).
+..\Output\STM32-DEMO.axf: Error: L6218E: Undefined symbol uuRwrite (referred from opflash.o).
+..\Output\STM32-DEMO.axf: Error: L6218E: Undefined symbol SavetoFlash (referred from upgr.o).
+Target not created
+Build target 'SysTick-DEMO'
+compiling stm32f10x_flash.c...
+linking...
+..\Output\STM32-DEMO.axf: Error: L6218E: Undefined symbol asm (referred from opflash.o).
+..\Output\STM32-DEMO.axf: Error: L6218E: Undefined symbol pp_tvv (referred from opflash.o).
+..\Output\STM32-DEMO.axf: Error: L6218E: Undefined symbol uuRwrite (referred from opflash.o).
+..\Output\STM32-DEMO.axf: Error: L6218E: Undefined symbol SavetoFlash (referred from upgr.o).
+Target not created
+Build target 'SysTick-DEMO'
+compiling OpFlash.c...
+OpFlash.c(32): warning:  #223-D: function "uuRwrite" declared implicitly
+OpFlash.c(117): warning:  #223-D: function "pp_tvv" declared implicitly
+linking...
+..\Output\STM32-DEMO.axf: Error: L6218E: Undefined symbol pp_tvv (referred from opflash.o).
+..\Output\STM32-DEMO.axf: Error: L6218E: Undefined symbol uuRwrite (referred from opflash.o).
+..\Output\STM32-DEMO.axf: Error: L6218E: Undefined symbol SavetoFlash (referred from upgr.o).
+Target not created
+Build target 'SysTick-DEMO'
+compiling OpFlash.c...
+OpFlash.c(117): warning:  #223-D: function "pp_tvv" declared implicitly
+linking...
+..\Output\STM32-DEMO.axf: Error: L6218E: Undefined symbol pp_tvv (referred from opflash.o).
+..\Output\STM32-DEMO.axf: Error: L6218E: Undefined symbol SavetoFlash (referred from upgr.o).
+Target not created
+Build target 'SysTick-DEMO'
+linking...
+..\Output\STM32-DEMO.axf: Error: L6218E: Undefined symbol pp_tvv (referred from opflash.o).
+..\Output\STM32-DEMO.axf: Error: L6218E: Undefined symbol SavetoFlash (referred from upgr.o).
+Target not created
+Build target 'SysTick-DEMO'
+compiling OpFlash.c...
+OpFlash.c(112): error:  #70: incomplete type is not allowed
+Target not created
+Build target 'SysTick-DEMO'
+compiling OpFlash.c...
+OpFlash.h(12): error:  #20: identifier "INT8U" is undefined
+OpFlash.h(13): error:  #20: identifier "INT32U" is undefined
+OpFlash.c(41): error:  #20: identifier "CHR_L" is undefined
+OpFlash.c(112): warning:  #550-D: variable "inptr" was set but never used
+Target not created
+Build target 'SysTick-DEMO'
+compiling OpFlash.c...
+OpFlash.h(12): error:  #20: identifier "INT8U" is undefined
+OpFlash.h(13): error:  #20: identifier "INT32U" is undefined
+OpFlash.c(112): warning:  #550-D: variable "inptr" was set but never used
+Target not created
+Build target 'SysTick-DEMO'
+compiling OpFlash.c...
+linking...
+..\Output\STM32-DEMO.axf: Error: L6218E: Undefined symbol SavetoFlash (referred from upgr.o).
+Target not created
+Build target 'SysTick-DEMO'
+compiling upgr.c...
+upgr.h(33): warning:  #1295-D: Deprecated declaration init_upgrade - give arg types
+upgr.c(9): error:  #20: identifier "INT32U" is undefined
+upgr.c(41): warning:  #223-D: function "memset" declared implicitly
+upgr.c(66): error:  #167: argument of type "unsigned char *" is incompatible with parameter of type "unsigned char"
+upgr.c(83): error:  #167: argument of type "unsigned char *" is incompatible with parameter of type "unsigned char"
+upgr.c(105): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+upgr.c(110): warning:  #223-D: function "memset" declared implicitly
+upgr.c(138): warning:  #223-D: function "memset" declared implicitly
+upgr.c(30): warning:  #177-D: variable "i" was declared but never referenced
+upgr.c(166): error:  #65: expected a ";"
+upgr.c(168): warning:  #223-D: function "memcpy" declared implicitly
+upgr.c(173): warning:  #223-D: function "write_Flasfbuff1" declared implicitly
+upgr.c(173): error:  #20: identifier "mBuffer" is undefined
+upgr.c(173): error:  #20: identifier "flash_len" is undefined
+Target not created
+Build target 'SysTick-DEMO'
+compiling upgr.c...
+upgr.h(33): warning:  #1295-D: Deprecated declaration init_upgrade - give arg types
+upgr.c(42): warning:  #223-D: function "memset" declared implicitly
+upgr.c(67): error:  #167: argument of type "unsigned char *" is incompatible with parameter of type "unsigned char"
+upgr.c(84): error:  #167: argument of type "unsigned char *" is incompatible with parameter of type "unsigned char"
+upgr.c(106): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+upgr.c(111): warning:  #223-D: function "memset" declared implicitly
+upgr.c(139): warning:  #223-D: function "memset" declared implicitly
+upgr.c(31): warning:  #177-D: variable "i" was declared but never referenced
+upgr.c(167): error:  #65: expected a ";"
+upgr.c(169): warning:  #223-D: function "memcpy" declared implicitly
+upgr.c(174): warning:  #223-D: function "write_Flasfbuff1" declared implicitly
+upgr.c(174): error:  #20: identifier "mBuffer" is undefined
+upgr.c(174): error:  #20: identifier "flash_len" is undefined
+Target not created
+Build target 'SysTick-DEMO'
+compiling upgr.c...
+upgr.h(33): warning:  #1295-D: Deprecated declaration init_upgrade - give arg types
+upgr.c(42): warning:  #223-D: function "memset" declared implicitly
+upgr.c(67): error:  #167: argument of type "unsigned char *" is incompatible with parameter of type "unsigned char"
+upgr.c(84): error:  #167: argument of type "unsigned char *" is incompatible with parameter of type "unsigned char"
+upgr.c(106): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+upgr.c(111): warning:  #223-D: function "memset" declared implicitly
+upgr.c(139): warning:  #223-D: function "memset" declared implicitly
+upgr.c(31): warning:  #177-D: variable "i" was declared but never referenced
+upgr.c(169): warning:  #223-D: function "memcpy" declared implicitly
+upgr.c(174): warning:  #223-D: function "write_Flasfbuff1" declared implicitly
+upgr.c(174): error:  #20: identifier "mBuffer" is undefined
+upgr.c(174): error:  #20: identifier "flash_len" is undefined
+Target not created
+Build target 'SysTick-DEMO'
+compiling upgr.c...
+upgr.h(33): warning:  #1295-D: Deprecated declaration init_upgrade - give arg types
+upgr.c(42): warning:  #223-D: function "memset" declared implicitly
+upgr.c(106): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+upgr.c(111): warning:  #223-D: function "memset" declared implicitly
+upgr.c(139): warning:  #223-D: function "memset" declared implicitly
+upgr.c(31): warning:  #177-D: variable "i" was declared but never referenced
+upgr.c(169): warning:  #223-D: function "memcpy" declared implicitly
+upgr.c(174): warning:  #223-D: function "write_Flasfbuff1" declared implicitly
+upgr.c(174): error:  #20: identifier "mBuffer" is undefined
+upgr.c(174): error:  #20: identifier "flash_len" is undefined
+Target not created
+Build target 'SysTick-DEMO'
+compiling upgr.c...
+upgr.h(33): warning:  #1295-D: Deprecated declaration init_upgrade - give arg types
+upgr.c(42): warning:  #223-D: function "memset" declared implicitly
+upgr.c(106): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+upgr.c(111): warning:  #223-D: function "memset" declared implicitly
+upgr.c(139): warning:  #223-D: function "memset" declared implicitly
+upgr.c(31): warning:  #177-D: variable "i" was declared but never referenced
+upgr.c(169): warning:  #223-D: function "memcpy" declared implicitly
+upgr.c(174): warning:  #223-D: function "write_Flasfbuff1" declared implicitly
+linking...
+Program Size: Code=18376 RO-data=336 RW-data=220 ZI-data=2500  
+FromELF: creating hex file...
+"..\Output\STM32-DEMO.axf" - 0 Error(s), 8 Warning(s).
+Build target 'SysTick-DEMO'
+compiling upgr.c...
+upgr.c(107): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+upgr.c(32): warning:  #177-D: variable "i" was declared but never referenced
+upgr.c(175): warning:  #223-D: function "write_Flasfbuff1" declared implicitly
+linking...
+Program Size: Code=18376 RO-data=336 RW-data=220 ZI-data=2500  
+FromELF: creating hex file...
+"..\Output\STM32-DEMO.axf" - 0 Error(s), 3 Warning(s).
+Build target 'SysTick-DEMO'
+compiling upgr.c...
+upgr.c(32): warning:  #177-D: variable "i" was declared but never referenced
+upgr.c(175): warning:  #223-D: function "write_Flasfbuff1" declared implicitly
+linking...
+Program Size: Code=18376 RO-data=336 RW-data=220 ZI-data=2500  
+FromELF: creating hex file...
+"..\Output\STM32-DEMO.axf" - 0 Error(s), 2 Warning(s).
+Build target 'SysTick-DEMO'
+compiling OpFlash.c...
+OpFlash.h(35): warning:  #1-D: last line of file ends without a newline
+compiling upgr.c...
+OpFlash.h(35): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=18376 RO-data=336 RW-data=220 ZI-data=2500  
+FromELF: creating hex file...
+"..\Output\STM32-DEMO.axf" - 0 Error(s), 2 Warning(s).
+Build target 'SysTick-DEMO'
+compiling OpFlash.c...
+compiling upgr.c...
+linking...
+Program Size: Code=18376 RO-data=336 RW-data=220 ZI-data=2500  
+FromELF: creating hex file...
+"..\Output\STM32-DEMO.axf" - 0 Error(s), 0 Warning(s).
+Build target 'SysTick-DEMO'
+linking...
+Program Size: Code=18376 RO-data=336 RW-data=220 ZI-data=2500  
+FromELF: creating hex file...
+"..\Output\STM32-DEMO.axf" - 0 Error(s), 0 Warning(s).
+Build target 'SysTick-DEMO'
+linking...
+..\Output\STM32-DEMO.sct(20): warning: L6329W: Pattern stm32f10x_flash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(RW).
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(ZI).
+..\Output\STM32-DEMO.sct(21): warning: L6314W: No section matches pattern stm32f10x_iwdg.o(RO).
+..\Output\STM32-DEMO.sct(21): warning: L6314W: No section matches pattern stm32f10x_iwdg.o(RW).
+..\Output\STM32-DEMO.sct(21): warning: L6314W: No section matches pattern stm32f10x_iwdg.o(ZI).
+..\Output\STM32-DEMO.sct(22): warning: L6329W: Pattern opflash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(RW).
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(ZI).
+Program Size: Code=18376 RO-data=336 RW-data=220 ZI-data=2500  
+FromELF: creating hex file...
+"..\Output\STM32-DEMO.axf" - 0 Error(s), 9 Warning(s).
+Build target 'SysTick-DEMO'
+linking...
+..\Output\STM32-DEMO.sct(20): warning: L6329W: Pattern stm32f10x_flash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(RW).
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(ZI).
+..\Output\STM32-DEMO.sct(22): warning: L6329W: Pattern opflash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(RW).
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(ZI).
+Program Size: Code=18376 RO-data=336 RW-data=220 ZI-data=2500  
+FromELF: creating hex file...
+"..\Output\STM32-DEMO.axf" - 0 Error(s), 6 Warning(s).
+Build target 'SysTick-DEMO'
+assembling startup_stm32f10x_hd.s...
+compiling main.c...
+compiling stm32f10x_it.c...
+stm32f10x_it.c(294): warning:  #177-D: variable "cc2" was declared but never referenced
+compiling SysTick.c...
+compiling usart.c...
+usart.c(219): warning:  #223-D: function "vsprintf" declared implicitly
+compiling adc.c...
+compiling bsp.c...
+compiling motor.c...
+compiling PID.c...
+compiling iclean.c...
+compiling OpFlash.c...
+compiling upgr.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_usart.c...
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_flash.c...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+linking...
+..\Output\STM32-DEMO.sct(20): warning: L6329W: Pattern stm32f10x_flash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(RW).
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(ZI).
+..\Output\STM32-DEMO.sct(22): warning: L6329W: Pattern opflash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(RW).
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(ZI).
+Program Size: Code=18376 RO-data=336 RW-data=220 ZI-data=2500  
+FromELF: creating hex file...
+"..\Output\STM32-DEMO.axf" - 0 Error(s), 8 Warning(s).
+Build target 'SysTick-DEMO'
+linking...
+..\Output\STM32-DEMO.sct(20): warning: L6329W: Pattern stm32f10x_flash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(RW).
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(ZI).
+..\Output\STM32-DEMO.sct(22): warning: L6329W: Pattern opflash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(RW).
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(ZI).
+Program Size: Code=18376 RO-data=336 RW-data=220 ZI-data=2500  
+FromELF: creating hex file...
+"..\Output\STM32-DEMO.axf" - 0 Error(s), 6 Warning(s).
+Build target 'SysTick-DEMO'
+linking...
+..\Output\STM32-DEMO.sct(20): warning: L6329W: Pattern stm32f10x_flash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(RW).
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(ZI).
+..\Output\STM32-DEMO.sct(22): warning: L6329W: Pattern opflash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(RW).
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(ZI).
+Program Size: Code=18376 RO-data=336 RW-data=220 ZI-data=2500  
+FromELF: creating hex file...
+"..\Output\STM32-DEMO.axf" - 0 Error(s), 6 Warning(s).
+Build target 'SysTick-DEMO'
+linking...
+..\Output\STM32-DEMO.sct(20): warning: L6329W: Pattern stm32f10x_flash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(RW).
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(ZI).
+..\Output\STM32-DEMO.sct(22): warning: L6329W: Pattern opflash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(RW).
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(ZI).
+Program Size: Code=18376 RO-data=336 RW-data=220 ZI-data=2500  
+FromELF: creating hex file...
+"..\Output\STM32-DEMO.axf" - 0 Error(s), 6 Warning(s).
+Build target 'SysTick-DEMO'
+linking...
+..\Output\STM32-DEMO.sct(20): warning: L6329W: Pattern stm32f10x_flash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(RW).
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(ZI).
+..\Output\STM32-DEMO.sct(22): warning: L6329W: Pattern opflash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(RW).
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(ZI).
+Program Size: Code=18376 RO-data=336 RW-data=220 ZI-data=2500  
+FromELF: creating hex file...
+"..\Output\irobot.axf" - 0 Error(s), 6 Warning(s).
+Build target 'SysTick-DEMO'
+linking...
+..\Output\STM32-DEMO.sct(20): warning: L6329W: Pattern stm32f10x_flash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(RW).
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(ZI).
+..\Output\STM32-DEMO.sct(22): warning: L6329W: Pattern opflash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(RW).
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(ZI).
+Program Size: Code=18376 RO-data=336 RW-data=220 ZI-data=2500  
+FromELF: creating hex file...
+"..\Output\irobot.axf" - 0 Error(s), 6 Warning(s).
+Build target 'SysTick-DEMO'
+linking...
+..\Output\STM32-DEMO.sct(20): warning: L6329W: Pattern stm32f10x_flash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(RW).
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(ZI).
+..\Output\STM32-DEMO.sct(22): warning: L6329W: Pattern opflash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(RW).
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(ZI).
+Program Size: Code=18376 RO-data=336 RW-data=220 ZI-data=2500  
+FromELF: creating hex file...
+"..\Output\irobot.axf" - 0 Error(s), 6 Warning(s).
+Build target 'SysTick-DEMO'
+linking...
+..\Output\STM32-DEMO.sct(20): warning: L6329W: Pattern stm32f10x_flash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(RW).
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(ZI).
+..\Output\STM32-DEMO.sct(22): warning: L6329W: Pattern opflash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(RW).
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(ZI).
+Program Size: Code=18376 RO-data=336 RW-data=220 ZI-data=2500  
+FromELF: creating hex file...
+"..\Output\irobot.axf" - 0 Error(s), 6 Warning(s).
+Build target 'SysTick-DEMO'
+linking...
+..\Output\STM32-DEMO.sct(20): warning: L6329W: Pattern stm32f10x_flash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(RW).
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(ZI).
+..\Output\STM32-DEMO.sct(22): warning: L6329W: Pattern opflash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(RW).
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(ZI).
+Program Size: Code=18376 RO-data=336 RW-data=220 ZI-data=2500  
+FromELF: creating hex file...
+User command #1: "C:\Program Files\ARM\BIN40\fromelf.exe" --bin -o ..\Output\irobot.bin ..\Output\irobot.axf
+--- Error: User Command terminated, Exit-Code = 1
+User command #2: "C:\Program Files\ARM\BIN40\fromelf.exe" -z ..\Output\irobot.axf
+--- Error: User Command terminated, Exit-Code = 1
+"..\Output\irobot.axf" - 2 Error(s), 6 Warning(s).
+Build target 'SysTick-DEMO'
+linking...
+..\Output\STM32-DEMO.sct(20): warning: L6329W: Pattern stm32f10x_flash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(RW).
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(ZI).
+..\Output\STM32-DEMO.sct(22): warning: L6329W: Pattern opflash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(RW).
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(ZI).
+Program Size: Code=18376 RO-data=336 RW-data=220 ZI-data=2500  
+FromELF: creating hex file...
+User command #1: "C:\Program Files\ARM\BIN40\fromelf.exe" --bin -o ..\Output\irobot.bin
+--- Error: User Command terminated, Exit-Code = 1
+"..\Output\irobot.axf" - 1 Error(s), 6 Warning(s).
+Build target 'SysTick-DEMO'
+linking...
+..\Output\STM32-DEMO.sct(20): warning: L6329W: Pattern stm32f10x_flash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(RW).
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(ZI).
+..\Output\STM32-DEMO.sct(22): warning: L6329W: Pattern opflash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(RW).
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(ZI).
+Program Size: Code=18376 RO-data=336 RW-data=220 ZI-data=2500  
+FromELF: creating hex file...
+User command #1: "C:\Program Files\ARM\BIN40\fromelf.exe" --bin -o ..\Output\irobot.bin
+"..\Output\irobot.axf" - 0 Error(s), 6 Warning(s).
+Build target 'SysTick-DEMO'
+linking...
+..\Output\STM32-DEMO.sct(20): warning: L6329W: Pattern stm32f10x_flash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(RW).
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(ZI).
+..\Output\STM32-DEMO.sct(22): warning: L6329W: Pattern opflash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(RW).
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(ZI).
+Program Size: Code=18376 RO-data=336 RW-data=220 ZI-data=2500  
+FromELF: creating hex file...
+User command #1: "C:\Program Files\ARM\BIN40\fromelf.exe" --bin -o ..\Output\irobot.bin ..\Output\irobotr.axf
+User command #2: "C:\Program Files\ARM\BIN40\fromelf.exe" -z ..\Output\irobot.axf
+"..\Output\irobot.axf" - 0 Error(s), 6 Warning(s).
+Build target 'SysTick-DEMO'
+linking...
+..\Output\STM32-DEMO.sct(20): warning: L6329W: Pattern stm32f10x_flash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(RW).
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(ZI).
+..\Output\STM32-DEMO.sct(22): warning: L6329W: Pattern opflash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(RW).
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(ZI).
+Program Size: Code=18376 RO-data=336 RW-data=220 ZI-data=2500  
+FromELF: creating hex file...
+User command #1: "C:\Program Files\ARM\BIN40\fromelf.exe" --bin -o irobot.bin irobotr.axf
+User command #2: "C:\Program Files\ARM\BIN40\fromelf.exe" -z ..\Output\irobot.axf
+"..\Output\irobot.axf" - 0 Error(s), 6 Warning(s).
+Build target 'SysTick-DEMO'
+linking...
+..\Output\STM32-DEMO.sct(20): warning: L6329W: Pattern stm32f10x_flash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(RW).
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(ZI).
+..\Output\STM32-DEMO.sct(22): warning: L6329W: Pattern opflash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(RW).
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(ZI).
+Program Size: Code=18376 RO-data=336 RW-data=220 ZI-data=2500  
+FromELF: creating hex file...
+User command #1: "C:\Keil\ARM\BIN40\fromelf.exe" --bin -o irobot.bin irobotr.axf
+"irobotr.axf": Error: Q0122E: Could not open file 'irobotr.axf': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+User command #2: "C:\Keil\ARM\BIN40\fromelf.exe" -z ..\Output\irobot.axf
+========================================================================
+** Object/Image Component Sizes
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+     18376        960        336        220       2500     370945   ..\Output\irobot.axf
+     18376        960        336        220          0          0   ROM Totals for ..\Output\irobot.axf
+"..\Output\irobot.axf" - 0 Error(s), 6 Warning(s).
+Build target 'SysTick-DEMO'
+linking...
+..\Output\STM32-DEMO.sct(20): warning: L6329W: Pattern stm32f10x_flash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(RW).
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(ZI).
+..\Output\STM32-DEMO.sct(22): warning: L6329W: Pattern opflash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(RW).
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(ZI).
+Program Size: Code=18376 RO-data=336 RW-data=220 ZI-data=2500  
+FromELF: creating hex file...
+User command #1: "C:\Keil\ARM\BIN40\fromelf.exe" --bin -o ..\Output\irobot.bin ..\Output\irobotr.axf
+"..\Output\irobotr.axf": Error: Q0122E: Could not open file '..\Output\irobotr.axf': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+User command #2: "C:\Keil\ARM\BIN40\fromelf.exe" -z ..\Output\irobot.axf
+========================================================================
+** Object/Image Component Sizes
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+     18376        960        336        220       2500     370945   ..\Output\irobot.axf
+     18376        960        336        220          0          0   ROM Totals for ..\Output\irobot.axf
+"..\Output\irobot.axf" - 0 Error(s), 6 Warning(s).
+Build target 'SysTick-DEMO'
+linking...
+..\Output\STM32-DEMO.sct(20): warning: L6329W: Pattern stm32f10x_flash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(RW).
+..\Output\STM32-DEMO.sct(20): warning: L6314W: No section matches pattern stm32f10x_flash.o(ZI).
+..\Output\STM32-DEMO.sct(22): warning: L6329W: Pattern opflash.o(RO) only matches removed unused sections.
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(RW).
+..\Output\STM32-DEMO.sct(22): warning: L6314W: No section matches pattern opflash.o(ZI).
+Program Size: Code=18376 RO-data=336 RW-data=220 ZI-data=2500  
+FromELF: creating hex file...
+User command #1: "C:\Keil\ARM\BIN40\fromelf.exe" --bin -o ..\Output\irobot.bin ..\Output\irobot.axf
+User command #2: "C:\Keil\ARM\BIN40\fromelf.exe" -z ..\Output\irobot.axf
+========================================================================
+** Object/Image Component Sizes
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+     18376        960        336        220       2500     370945   ..\Output\irobot.axf
+     18376        960        336        220          0          0   ROM Totals for ..\Output\irobot.axf
+"..\Output\irobot.axf" - 0 Error(s), 6 Warning(s).
+Build target 'SysTick-DEMO'
+compiling main.c...
+linking...
+Program Size: Code=21612 RO-data=352 RW-data=260 ZI-data=4688  
+FromELF: creating hex file...
+User command #1: "C:\Keil\ARM\BIN40\fromelf.exe" --bin -o ..\Output\irobot.bin ..\Output\irobot.axf
+User command #2: "C:\Keil\ARM\BIN40\fromelf.exe" -z ..\Output\irobot.axf
+========================================================================
+** Object/Image Component Sizes
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+     21612       1196        352        260       4688     390011   ..\Output\irobot.axf
+     21612       1196        352        260          0          0   ROM Totals for ..\Output\irobot.axf
+"..\Output\irobot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'SysTick-DEMO'
+compiling upgr.c...
+linking...
+Program Size: Code=21648 RO-data=352 RW-data=260 ZI-data=4688  
+FromELF: creating hex file...
+User command #1: "C:\Keil\ARM\BIN40\fromelf.exe" --bin -o ..\Output\irobot.bin ..\Output\irobot.axf
+User command #2: "C:\Keil\ARM\BIN40\fromelf.exe" -z ..\Output\irobot.axf
+========================================================================
+** Object/Image Component Sizes
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+     21648       1204        352        260       4688     390023   ..\Output\irobot.axf
+     21648       1204        352        260          0          0   ROM Totals for ..\Output\irobot.axf
+"..\Output\irobot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'SysTick-DEMO'
+compiling main.c...
+main.c(124): warning:  #128-D: loop is not reachable from preceding code
+linking...
+Program Size: Code=21524 RO-data=352 RW-data=260 ZI-data=4688  
+FromELF: creating hex file...
+User command #1: "C:\Keil\ARM\BIN40\fromelf.exe" --bin -o ..\Output\irobot.bin ..\Output\irobot.axf
+User command #2: "C:\Keil\ARM\BIN40\fromelf.exe" -z ..\Output\irobot.axf
+========================================================================
+** Object/Image Component Sizes
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+     21524       1166        352        260       4688     389939   ..\Output\irobot.axf
+     21524       1166        352        260          0          0   ROM Totals for ..\Output\irobot.axf
+"..\Output\irobot.axf" - 0 Error(s), 1 Warning(s).
+Build target 'SysTick-DEMO'
+assembling startup_stm32f10x_hd.s...
+compiling main.c...
+main.c(124): warning:  #128-D: loop is not reachable from preceding code
+compiling stm32f10x_it.c...
+stm32f10x_it.c(294): warning:  #177-D: variable "cc2" was declared but never referenced
+compiling SysTick.c...
+compiling usart.c...
+usart.c(219): warning:  #223-D: function "vsprintf" declared implicitly
+compiling adc.c...
+compiling bsp.c...
+compiling motor.c...
+compiling PID.c...
+compiling iclean.c...
+compiling OpFlash.c...
+compiling upgr.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_usart.c...
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_flash.c...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+linking...
+Program Size: Code=21524 RO-data=352 RW-data=260 ZI-data=4688  
+FromELF: creating hex file...
+User command #1: "C:\Keil\ARM\BIN40\fromelf.exe" --bin -o ..\Output\irobot.bin ..\Output\irobot.axf
+User command #2: "C:\Keil\ARM\BIN40\fromelf.exe" -z ..\Output\irobot.axf
+========================================================================
+** Object/Image Component Sizes
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+     21524       1166        352        260       4688     389939   ..\Output\irobot.axf
+     21524       1166        352        260          0          0   ROM Totals for ..\Output\irobot.axf
+"..\Output\irobot.axf" - 0 Error(s), 3 Warning(s).
+Build target 'SysTick-DEMO'
+compiling upgr.c...
+upgr.c(43): warning:  #223-D: function "r_motor_stop" declared implicitly
+upgr.c(44): warning:  #223-D: function "l_motor_stop" declared implicitly
+linking...
+Program Size: Code=21544 RO-data=352 RW-data=260 ZI-data=4688  
+FromELF: creating hex file...
+User command #1: "C:\Keil\ARM\BIN40\fromelf.exe" --bin -o ..\Output\irobot.bin ..\Output\irobot.axf
+User command #2: "C:\Keil\ARM\BIN40\fromelf.exe" -z ..\Output\irobot.axf
+========================================================================
+** Object/Image Component Sizes
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+     21544       1168        352        260       4688     389951   ..\Output\irobot.axf
+     21544       1168        352        260          0          0   ROM Totals for ..\Output\irobot.axf
+"..\Output\irobot.axf" - 0 Error(s), 2 Warning(s).
+Build target 'SysTick-DEMO'
+compiling main.c...
+main.c(124): warning:  #128-D: loop is not reachable from preceding code
+compiling upgr.c...
+upgr.c(43): warning:  #223-D: function "motor_run" declared implicitly
+upgr.c(43): error:  #20: identifier "GO_STOP" is undefined
+Target not created
+Build target 'SysTick-DEMO'
+compiling upgr.c...
+linking...
+Program Size: Code=21548 RO-data=352 RW-data=260 ZI-data=4688  
+FromELF: creating hex file...
+User command #1: "C:\Keil\ARM\BIN40\fromelf.exe" --bin -o ..\Output\irobot.bin ..\Output\irobot.axf
+User command #2: "C:\Keil\ARM\BIN40\fromelf.exe" -z ..\Output\irobot.axf
+========================================================================
+** Object/Image Component Sizes
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+     21548       1168        352        260       4688     389963   ..\Output\irobot.axf
+     21548       1168        352        260          0          0   ROM Totals for ..\Output\irobot.axf
+"..\Output\irobot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'SysTick-DEMO'
+linking...
+Program Size: Code=21548 RO-data=352 RW-data=260 ZI-data=4688  
+FromELF: creating hex file...
+User command #1: "C:\Keil\ARM\BIN40\fromelf.exe" --bin -o ..\Output\irobot.bin ..\Output\irobot.axf
+User command #2: "C:\Keil\ARM\BIN40\fromelf.exe" -z ..\Output\irobot.axf
+========================================================================
+** Object/Image Component Sizes
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+     21548       1168        352        260       4688     389963   ..\Output\irobot.axf
+     21548       1168        352        260          0          0   ROM Totals for ..\Output\irobot.axf
+"..\Output\irobot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'SysTick-DEMO'
+compiling main.c...
+main.c(124): warning:  #128-D: loop is not reachable from preceding code
+linking...
+Program Size: Code=21536 RO-data=352 RW-data=260 ZI-data=4688  
+FromELF: creating hex file...
+User command #1: "C:\Keil\ARM\BIN40\fromelf.exe" --bin -o ..\Output\irobot.bin ..\Output\irobot.axf
+User command #2: "C:\Keil\ARM\BIN40\fromelf.exe" -z ..\Output\irobot.axf
+========================================================================
+** Object/Image Component Sizes
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+     21536       1168        352        260       4688     389959   ..\Output\irobot.axf
+     21536       1168        352        260          0          0   ROM Totals for ..\Output\irobot.axf
+"..\Output\irobot.axf" - 0 Error(s), 1 Warning(s).
+Build target 'SysTick-DEMO'
+compiling main.c...
+main.c(127): warning:  #128-D: loop is not reachable from preceding code
+linking...
+Program Size: Code=21548 RO-data=352 RW-data=260 ZI-data=4688  
+FromELF: creating hex file...
+User command #1: "C:\Keil\ARM\BIN40\fromelf.exe" --bin -o ..\Output\irobot.bin ..\Output\irobot.axf
+User command #2: "C:\Keil\ARM\BIN40\fromelf.exe" -z ..\Output\irobot.axf
+========================================================================
+** Object/Image Component Sizes
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+     21548       1168        352        260       4688     389975   ..\Output\irobot.axf
+     21548       1168        352        260          0          0   ROM Totals for ..\Output\irobot.axf
+"..\Output\irobot.axf" - 0 Error(s), 1 Warning(s).
+Build target 'SysTick-DEMO'
+linking...
+Program Size: Code=21548 RO-data=352 RW-data=260 ZI-data=4688  
+FromELF: creating hex file...
+User command #1: "C:\Keil\ARM\BIN40\fromelf.exe" --bin -o ..\Output\irobot.bin ..\Output\irobot.axf
+User command #2: "C:\Keil\ARM\BIN40\fromelf.exe" -z ..\Output\irobot.axf
+========================================================================
+** Object/Image Component Sizes
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+     21548       1168        352        260       4688     389975   ..\Output\irobot.axf
+     21548       1168        352        260          0          0   ROM Totals for ..\Output\irobot.axf
+"..\Output\irobot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'SysTick-DEMO'
+compiling main.c...
+main.c(127): warning:  #128-D: loop is not reachable from preceding code
+linking...
+Program Size: Code=21532 RO-data=352 RW-data=260 ZI-data=4688  
+FromELF: creating hex file...
+User command #1: "C:\Keil\ARM\BIN40\fromelf.exe" --bin -o ..\Output\irobot.bin ..\Output\irobot.axf
+User command #2: "C:\Keil\ARM\BIN40\fromelf.exe" -z ..\Output\irobot.axf
+========================================================================
+** Object/Image Component Sizes
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+     21532       1166        352        260       4688     389971   ..\Output\irobot.axf
+     21532       1166        352        260          0          0   ROM Totals for ..\Output\irobot.axf
+"..\Output\irobot.axf" - 0 Error(s), 1 Warning(s).
+Build target 'SysTick-DEMO'
+compiling main.c...
+main.c(127): warning:  #128-D: loop is not reachable from preceding code
+main.c(94): warning:  #177-D: variable "chr" was declared but never referenced
+linking...
+Program Size: Code=21512 RO-data=352 RW-data=260 ZI-data=4688  
+FromELF: creating hex file...
+User command #1: "C:\Keil\ARM\BIN40\fromelf.exe" --bin -o ..\Output\irobot.bin ..\Output\irobot.axf
+User command #2: "C:\Keil\ARM\BIN40\fromelf.exe" -z ..\Output\irobot.axf
+========================================================================
+** Object/Image Component Sizes
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+     21512       1166        352        260       4688     389955   ..\Output\irobot.axf
+     21512       1166        352        260          0          0   ROM Totals for ..\Output\irobot.axf
+"..\Output\irobot.axf" - 0 Error(s), 2 Warning(s).
+Build target 'SysTick-DEMO'
+linking...
+Program Size: Code=21512 RO-data=352 RW-data=260 ZI-data=4688  
+FromELF: creating hex file...
+User command #1: "C:\Keil\ARM\BIN40\fromelf.exe" --bin -o ..\Output\irobot.bin ..\Output\irobot.axf
+User command #2: "C:\Keil\ARM\BIN40\fromelf.exe" -z ..\Output\irobot.axf
+========================================================================
+** Object/Image Component Sizes
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+     21512       1166        352        260       4688     389955   ..\Output\irobot.axf
+     21512       1166        352        260          0          0   ROM Totals for ..\Output\irobot.axf
+"..\Output\irobot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'SysTick-DEMO'
+compiling upgr.c...
+linking...
+Program Size: Code=21500 RO-data=352 RW-data=260 ZI-data=4688  
+FromELF: creating hex file...
+User command #1: "C:\Keil\ARM\BIN40\fromelf.exe" --bin -o ..\Output\irobot.bin ..\Output\irobot.axf
+User command #2: "C:\Keil\ARM\BIN40\fromelf.exe" -z ..\Output\irobot.axf
+========================================================================
+** Object/Image Component Sizes
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+     21500       1166        352        260       4688     389951   ..\Output\irobot.axf
+     21500       1166        352        260          0          0   ROM Totals for ..\Output\irobot.axf
+"..\Output\irobot.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\Output\\irobot.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "G:\02.Project\iRobot\code\irobot\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.287V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 50 kHz
+ 
+No Algorithm found for: 08000000H - 0800565FH
+Erase skipped!
+Load "..\\Output\\irobot.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "G:\02.Project\iRobot\code\irobot\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.280V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 50 kHz
+ 
+No Algorithm found for: 08000000H - 0800565FH
+Erase skipped!
+Load "..\\Output\\irobot.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "G:\02.Project\iRobot\code\irobot\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.280V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 50 kHz
+ 
+No Algorithm found for: 08000000H - 0800565FH
+Erase skipped!
+Load "..\\Output\\irobot.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "G:\02.Project\iRobot\code\irobot\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.280V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 50 kHz
+ 
+No Algorithm found for: 08000000H - 0800565FH
+Erase skipped!
+Load "..\\Output\\irobot.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "G:\02.Project\iRobot\code\irobot\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.280V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 50 kHz
+ 
+Erase Failed!
+Load "..\\Output\\irobot.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "G:\02.Project\iRobot\code\irobot\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.280V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 50 kHz
+ 
+Erase Failed!
+Load "..\\Output\\irobot.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "G:\02.Project\iRobot\code\irobot\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.280V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 50 kHz
+ 
+Erase Failed!
+Load "..\\Output\\irobot.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "G:\02.Project\iRobot\code\irobot\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.280V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Failed!
+Load "..\\Output\\irobot.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "G:\02.Project\iRobot\code\irobot\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.280V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Failed!
+Load "..\\Output\\irobot.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "G:\02.Project\iRobot\code\irobot\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.280V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Failed!
+Load "..\\Output\\irobot.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "G:\02.Project\iRobot\code\irobot\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.280V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Failed!
+Build target 'SysTick-DEMO'
+compiling main.c...
+main.c(94): warning:  #177-D: variable "chr" was declared but never referenced
+linking...
+Program Size: Code=21656 RO-data=352 RW-data=260 ZI-data=4688  
+FromELF: creating hex file...
+User command #1: "C:\Keil\ARM\BIN40\fromelf.exe" --bin -o ..\Output\irobot.bin ..\Output\irobot.axf
+User command #2: "C:\Keil\ARM\BIN40\fromelf.exe" -z ..\Output\irobot.axf
+========================================================================
+** Object/Image Component Sizes
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+     21656       1206        352        260       4688     390047   ..\Output\irobot.axf
+     21656       1206        352        260          0          0   ROM Totals for ..\Output\irobot.axf
+"..\Output\irobot.axf" - 0 Error(s), 1 Warning(s).
